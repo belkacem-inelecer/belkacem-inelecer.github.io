@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Belkacem Bekkour’s portfolio in mobile robotics, machine vision, and industrial AI.">
+<title>Belkacem Bekkour | Robotics &amp; Computer Vision</title>
+<style>
+:root{color-scheme:light;--ink:#142b31;--muted:#405b62;--accent:#005a4e;--paper:#f7f9f7;--line:#d6e1dc}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.65 system-ui,sans-serif}a{color:var(--accent);text-underline-offset:.22em}a:hover{text-decoration-thickness:2px}a:focus-visible{outline:3px solid #b35a13;outline-offset:4px}h1,h2,h3,p{margin:0}h1{font-size:clamp(3rem,8vw,6.5rem);line-height:.99;letter-spacing:-.078em;font-weight:750}h2{font-size:clamp(1.65rem,4vw,2.45rem);line-height:1.14;letter-spacing:-.045em}h3{font-size:1.15rem;line-height:1.35}p{max-width:66ch}.wrap{width:min(100% - 2.5rem,69rem);margin:auto}.bar{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:1rem;padding:1.2rem 0;border-bottom:1px solid var(--line)}.brand{font-weight:800;text-decoration:none}nav,.links{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem}nav a{font-size:.94rem}.hero{display:grid;grid-template-columns:1fr minmax(14rem,23rem);gap:2rem;align-items:end;padding:clamp(3.5rem,10vw,8rem) 0}.role{color:var(--accent);font-weight:700;margin-bottom:.85rem}.location{color:var(--muted);margin-top:1rem}.intro{border-left:3px solid var(--accent);padding-left:1.25rem}.intro p{margin-bottom:1.05rem}.button{display:inline-block;background:var(--accent);color:white;border-radius:.3rem;padding:.47rem .82rem;text-decoration:none}.section{display:grid;grid-template-columns:minmax(11rem, .32fr) 1fr;gap:1.4rem 3rem;padding:2.45rem 0;border-top:1px solid var(--line)}.projects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.card{display:flex;flex-direction:column;align-items:flex-start;gap:.65rem;background:#fff;border:1px solid var(--line);border-radius:.55rem;padding:1.15rem}.card p,.item p{color:var(--muted)}.card a{margin-top:auto;padding-top:.25rem}.item+.item{margin-top:1.05rem}.date{display:block;color:var(--muted);font-size:.92rem}.papers{margin:0;padding-left:1.2rem}.papers li+li{margin-top:.48rem}footer{background:#e6eeea;padding:2rem 0}footer h2{margin-bottom:.8rem}.skip{position:absolute;left:1rem;top:-10rem;padding:.5rem;background:white}.skip:focus{top:1rem}@media(max-width:720px){.hero,.section{grid-template-columns:1fr}.hero{gap:1.6rem}}@media(max-width:490px){.projects{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="wrap bar"><a class="brand" href="./">Belkacem Bekkour</a><nav aria-label="Main navigation"><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#publications">Publications</a><a href="#contact">Contact</a></nav></header>
+<main id="main" class="wrap">
+<section class="hero" aria-labelledby="name"><div><p class="role">Robotics · Computer Vision · Industrial AI</p><h1 id="name">Belkacem<br>Bekkour</h1><p class="location">Québec City, Canada</p></div><div class="intro"><p>I develop software for autonomous mobile robots and apply machine learning to industrial sensing. My work spans ROS 1/ROS 2, LiDAR localization, computer vision, and edge inference.</p><div class="links"><a class="button" href="resume.pdf">View CV</a><a href="https://github.com/belkacem-inelecer">GitHub</a></div></div></section>
+
+<section id="projects" class="section"><h2>Selected projects</h2><div class="projects">
+<article class="card"><h3>Autonomous navigation simulation</h3><p>Simulated a TurtleBot3 in custom Gazebo environments to build occupancy maps and explore SLAM with ROS Noetic.</p><a href="https://github.com/belkacem-inelecer/TurtleBot3-AMR-simulation-on-custom-gazebo-worlds-ROS1">View TurtleBot3 repository</a></article>
+<article class="card"><h3>Dynamic Window Approach</h3><p>A Python implementation of local motion planning for mobile robots.</p><a href="https://github.com/belkacem-inelecer/Dynamic-Window-Approach">View motion planning repository</a></article>
+<article class="card"><h3>LiDAR relocalization</h3><p>Developed real-time 2D point-cloud registration and evaluated CNN classification and YOLO keypoint detection for robot relocalization using ROS, Gazebo, and TurtleBot3.</p></article>
+<article class="card"><h3>Edge AI for energy prediction</h3><p>Explored neural-network inference on an ESP32 to predict energy output from a combined-cycle power plant.</p><a href="https://www.ubishops.ca/belkacem-bekkour-msc-computer-science-optimizing-energy-output-prediction-in-ccpps-using-edge-deployed-neural-networks-on-esp32-mcu/">Read the Bishop’s University spotlight</a></article>
+</div></section>
+
+<section id="experience" class="section"><h2>Experience</h2><div>
+<article class="item"><h3>Research Assistant · CNIMI–UQTR</h3><span class="date">January 2026 – Present</span><p>Develop predictive models for near-infrared spectroscopy, deploy inference on NVIDIA Jetson, and integrate outputs with industrial SCADA systems.</p></article>
+<article class="item"><h3>Mobile Robotics Expert · Noovelia</h3><span class="date">May 2025 – November 2026</span><p>Developed C++ and Python software for autonomous mobile robots, integrated vision and LiDAR, and built multi-robot coordination and fleet interfaces with Open-RMF and REST APIs.</p></article>
+<article class="item"><h3>Graduate Researcher · Hydrogen Research Institute, UQTR</h3><span class="date">September 2023 – May 2025</span><p>Researched LiDAR registration, deep-learning relocalization, and autonomous navigation.</p></article>
+</div></section>
+
+<section id="publications" class="section"><h2>Publications</h2><ul class="papers">
+<li><a href="https://doi.org/10.1007/978-3-031-21216-1_37">Aerial Forest Smoke’s Fire Detection Using Enhanced YOLOv5</a></li>
+<li><a href="https://doi.org/10.1007/978-3-031-21216-1_47">Study and Implementation of U-Net Encoder–Decoder Neural Network for Brain Tumors Segmentation</a></li>
+<li><a href="https://doi.org/10.1007/978-3-031-21216-1_46">Convolution Neural Network Deployment for Plant Leaf Diseases Detection</a></li>
+</ul></section>
+
+<section class="section"><h2>Education</h2><div>
+<article class="item"><h3>MSc, Computer Science (thesis)</h3><p>Bishop’s University · 2023–2025</p></article>
+<article class="item"><h3>Master 1, Electrical and Computer Engineering</h3><p>Institute of Electrical and Electronic Engineering (IGEE, ex-INELEC), UMBB · 2022–2023</p></article>
+<article class="item"><h3>Bachelor’s, Electronics Engineering</h3><p>Institute of Electrical and Electronic Engineering (IGEE, ex-INELEC), UMBB · 2019–2022</p></article>
+</div></section>
+</main>
+<footer id="contact"><div class="wrap"><h2>Contact</h2><div class="links"><a href="mailto:Belkacem.Bekkour@uqtr.ca">Email</a><a href="https://ca.linkedin.com/in/belkacem-bekkour-253185192">LinkedIn</a><a href="https://github.com/belkacem-inelecer">GitHub</a><a href="https://scholar.google.com/citations?user=wbo-pQwAAAAJ&amp;hl=en">Google Scholar</a><a href="https://www.kaggle.com/belkacembekkour">Kaggle</a></div></div></footer>
+</body>
+</html>
+
